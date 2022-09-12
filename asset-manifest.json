@@ -1,21 +1,18 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.e2c2102f.css",
-    "main.js": "/personal-website/static/js/main.a81f75a5.js",
-    "static/js/787.b596140c.chunk.js": "/personal-website/static/js/787.b596140c.chunk.js",
+    "main.css": "/personal-website/static/css/main.b73af984.css",
+    "main.js": "/personal-website/static/js/main.08ffe31a.js",
     "static/media/SanFranciscoDisplay-Bold.otf": "/personal-website/static/media/SanFranciscoDisplay-Bold.922b6b74886716f67a6f.otf",
     "static/media/SanFranciscoDisplay-Semibold.otf": "/personal-website/static/media/SanFranciscoDisplay-Semibold.8975d33a9cb24a490eef.otf",
     "static/media/SanFranciscoDisplay-Medium.otf": "/personal-website/static/media/SanFranciscoDisplay-Medium.7de3dd11f86463b9a9de.otf",
     "static/media/SanFranciscoDisplay-Light.otf": "/personal-website/static/media/SanFranciscoDisplay-Light.e2105c9bcacf514b1f9b.otf",
     "static/media/SanFranciscoDisplay-Regular.otf": "/personal-website/static/media/SanFranciscoDisplay-Regular.b3746ade655791fa5bb5.otf",
-    "static/media/logo.svg": "/personal-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/personal-website/index.html",
-    "main.e2c2102f.css.map": "/personal-website/static/css/main.e2c2102f.css.map",
-    "main.a81f75a5.js.map": "/personal-website/static/js/main.a81f75a5.js.map",
-    "787.b596140c.chunk.js.map": "/personal-website/static/js/787.b596140c.chunk.js.map"
+    "main.b73af984.css.map": "/personal-website/static/css/main.b73af984.css.map",
+    "main.08ffe31a.js.map": "/personal-website/static/js/main.08ffe31a.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2c2102f.css",
-    "static/js/main.a81f75a5.js"
+    "static/css/main.b73af984.css",
+    "static/js/main.08ffe31a.js"
   ]
 }
