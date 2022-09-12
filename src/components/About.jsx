@@ -1,7 +1,7 @@
 const About = () => {
 
     return <div class="about_component">
-        <img src="0693.jpg" width="40%" alt="" />
+        <img src="../assets/0693.jpg" width="40%" alt="" />
         <img src="0686.jpg" width="70%" alt="" />
         <img src="0689.jpg" width="40%" alt="" />
         {/* <div class="about_component_title">1. About me</div>
