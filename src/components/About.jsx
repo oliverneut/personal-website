@@ -1,7 +1,10 @@
+// import resume from '../assets/Resume_Oliver.pdf'
+
 const About = () => {
 
     return <div class="about_component">
-        <img src="../assets/0693.jpg" width="40%" alt="" />
+        <h1><a href="/Resume_oliver.pdf" download>Download resume</a></h1>
+        <img src="src/assets/0686.jpg" width="40%" alt="" />
         <img src="0686.jpg" width="70%" alt="" />
         <img src="0689.jpg" width="40%" alt="" />
         {/* <div class="about_component_title">1. About me</div>
