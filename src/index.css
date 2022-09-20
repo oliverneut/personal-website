@@ -1,17 +1,4 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
+/* || fonts */ 
 @font-face {
   font-family: SFO_Light;
   src: url(../public/SanFranciscoFont/SanFranciscoDisplay-Light.otf);
@@ -23,19 +10,16 @@ code {
 }
 
 @font-face {
-  font-family: SFO_Regular;
-  src: url(../public/SanFranciscoFont/SanFranciscoDisplay-Regular.otf);
-}
-
-@font-face {
-  font-family: SFO_Semibold;
-  src: url(../public/SanFranciscoFont/SanFranciscoDisplay-Semibold.otf);
-}
-@font-face {
   font-family: SFO_Bold;
   src: url(../public/SanFranciscoFont/SanFranciscoDisplay-Bold.otf);
 }
 
+@font-face {
+  font-family: SFO_Italic;
+  src: url(../public/SanFranciscoFont/SanFranciscoText-RegularItalic.otf);
+}
+
+/* || general styles */
 html {
   overflow: hidden;
   height: 100%;
@@ -129,112 +113,138 @@ a > div {
   align-items: center;
 }
 
-.homepage > div {
-  flex: 500px;
+.about_section {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* vertical centering */
+  justify-content: center; /* horizontal centering */
+
+  flex: 350px;
   width: 100%;
-  /* background-color: #ddd; */
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 }
 
-.about_section {
-  background: #141414;
+.about_component {
+  display: flex;
+  flex-direction: row;
+
+  width: 900px;
+}
+
+.about_component_text {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  padding-right: 20px;
+}
+
+.profile_picture {
+  border-radius: 15px;
+}
+
+.education_section {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* vertical centering */
+  justify-content: center; /* horizontal centering */
+
+  flex: 300px;
+  width: 100%;
+  background: rgb(49,111,60);
+  background: rgb(214,174,223);
+  background: radial-gradient(circle, rgba(214,174,223,1) 0%, rgba(80,105,76,1) 22%, rgba(54,85,57,1) 28%, rgba(37,71,44,1) 30%, rgba(100,120,89,1) 42%, rgba(176,179,144,1) 77%);}
+
+.education_component {
+  display: flex;
+  flex-direction: column;
+  width: 850px;
+}
+
+.education_component_text {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 850px;
+}
+
+.education_component_text > p {
+  padding-top: 10px;
+}
+
+.education_component_text > p:nth-child(4n + 1) {
+  font-family: SFO_Bold;
+}
+
+.education_component_text > p:nth-child(4n + 3) {
+  font-family: SFO_Italic;
+}
+
+.extracurricular_section {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* vertical centering */
+  justify-content: center; /* horizontal centering */
+
+  flex: 300px;
+  width: 100%;
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+.extracurricular_component {
+  display: flex;
+  flex-direction: column;
+  width: 850px;
+}
+
+.extracurricular_component_text {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 850px;
+}
+
+.extracurricular_component_text > p {
+  padding-top: 10px;
+}
+
+.extracurricular_component_text > p:nth-child(4n + 1) {
+  font-family: SFO_Bold;
+}
+
+.extracurricular_component_text > p:nth-child(4n + 3) {
+  font-family: SFO_Italic;
+}
+
+
+.Footer {
   display: flex;
   justify-content: center;
-  /* background-image: linear-gradient(#60CFAF, #83E2A9); */
+  flex-direction: row;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background: linear-gradient(180deg, #2b2b2b 0%, #535353 100%);;
 }
 
-.about_component { 
-  background: linear-gradient(278.33deg,rgb(32, 96, 215) 7%, rgb(135, 176, 253)99%);
-  border-radius: 10px;
-  width: 70%;
-  display: grid;
-  grid-template-rows: 1fr 5fr;
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr;
-  gap: 5px;
-  grid-auto-flow: row;
-}
-
-.about_component_title { 
-  grid-area: 1 / 1 / 3 / 2;
-}
-
-
-.about_component_content {  
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-      "about_component_info about_component_image";
-  grid-area: 2 / 1 / 3 / 2;
-  font-size: 12px;
-}
-
-.about_component_info {  
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 2fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-      "about_component_text"
-      "about_component_skills";
-  grid-area: about_component_info;
-}
-
-.about_component_text { grid-area: about_component_text; }
-
-.about_component_skills { 
-  grid-area: about_component_skills; 
-  font-size: 16px;
-}
-
-.about_component_image { grid-area: about_component_image; }
-
-.about_component_image img {
-  width: 300px;
-  height: auto;
-  border-radius: 20px;
-}
-
-.projects_section {
-  background-image: linear-gradient(#83E2A9, #ACF4A2);
-}
-
-.contact_section {
-  background-image: linear-gradient(#ACF4A2, #ffffff);
-}
-
-
-/* .homepage div:nth-child(odd) {
-  background-color: rgb(167, 154, 154);
-}
-.homepage div:nth-child(even) {
-  background-image: linear-gradient(rgb(167, 154, 154), black);
-  flex: 300px;
-} */
-
-
-/* .contentpage-container {
-  background-color: black;
-  color: white;
+.socials {
   display: flex;
-  align-items: flex-start;
-} */
+  justify-content: space-between;
+  align-items:flex-end;
+  width: 320px;
+}
 
-/* .segment-1-left {
-  flex: 2;
-  padding: 10px;
-} */
+.socials img {
+  width: 25px;
+}
 
-/* .earth {
-  max-width: 100%;
-  opacity: 60%;
-} */
+.socials * {
+  color: black;
+  font-family: SFO_Medium;
+}
 
+.socials a {
+  text-decoration: underline;
+}
 
-/* .segment-1-right {
-  flex: 1;
-  padding: 10px;
-} */
+.resume {
+  color:rgb(221, 221, 221);
+  font-family: SFO_Bold;
+  text-decoration: underline;
+}
