@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.9db7add2.css",
-    "main.js": "/personal-website/static/js/main.b087fa2e.js",
+    "main.css": "/personal-website/static/css/main.5c9cc103.css",
+    "main.js": "/personal-website/static/js/main.1f36edda.js",
     "static/media/0693.jpg": "/personal-website/static/media/0693.54c0cce16746d1a4be31.jpg",
     "static/media/0686.jpg": "/personal-website/static/media/0686.25f90b691171bd897497.jpg",
     "static/media/0689.jpg": "/personal-website/static/media/0689.fbe1bf54da94ab5cf1b3.jpg",
@@ -17,16 +17,17 @@
     "static/media/SanFranciscoDisplay-Bold.otf": "/personal-website/static/media/SanFranciscoDisplay-Bold.922b6b74886716f67a6f.otf",
     "static/media/SanFranciscoDisplay-Medium.otf": "/personal-website/static/media/SanFranciscoDisplay-Medium.7de3dd11f86463b9a9de.otf",
     "static/media/SanFranciscoDisplay-Light.otf": "/personal-website/static/media/SanFranciscoDisplay-Light.e2105c9bcacf514b1f9b.otf",
+    "static/media/aa.jpeg": "/personal-website/static/media/aa.e315d9f46f6e35d16a9e.jpeg",
     "static/media/SanFranciscoText-RegularItalic.otf": "/personal-website/static/media/SanFranciscoText-RegularItalic.195df6af4159da6abbb4.otf",
     "static/media/profile_pic.jpeg": "/personal-website/static/media/profile_pic.04e4d9af492b49a50fd3.jpeg",
     "static/media/github.png": "/personal-website/static/media/github.44eee0c4a6c25b0d7347.png",
     "static/media/linkedin.png": "/personal-website/static/media/linkedin.355cc6906a7d9483c989.png",
     "index.html": "/personal-website/index.html",
-    "main.9db7add2.css.map": "/personal-website/static/css/main.9db7add2.css.map",
-    "main.b087fa2e.js.map": "/personal-website/static/js/main.b087fa2e.js.map"
+    "main.5c9cc103.css.map": "/personal-website/static/css/main.5c9cc103.css.map",
+    "main.1f36edda.js.map": "/personal-website/static/js/main.1f36edda.js.map"
   },
   "entrypoints": [
-    "static/css/main.9db7add2.css",
-    "static/js/main.b087fa2e.js"
+    "static/css/main.5c9cc103.css",
+    "static/js/main.1f36edda.js"
   ]
 }
