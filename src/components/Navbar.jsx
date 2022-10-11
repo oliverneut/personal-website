@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const navbar = () => {
     return <header>
-        <a className="title" href="/"> <div className="surname" >Oliver</div> <div className="name">Neut</div> </a>
+        <a className="title" href="/personal-website"> <div className="surname" >Oliver</div> <div className="name">Neut</div> </a>
         <nav>
             <ul className="nav_links">
                 <li><Link to="/personal-website">Home</Link></li>
