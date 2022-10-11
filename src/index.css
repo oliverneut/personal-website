@@ -248,3 +248,71 @@ a > div {
   font-family: SFO_Bold;
   text-decoration: underline;
 }
+
+/* PROJECTS */
+
+.projects {
+  background-color: rgb(37, 44, 63);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;;
+}
+
+.projects h1 {
+  font-family: SFO_Medium;
+  font-size: x-large;
+}
+
+
+.photo_gallery {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5px;
+}
+
+.column {
+  flex: 33.3%;
+  max-width: 33.3%;
+  padding: 0 5px;
+  margin: 0 10px;
+  margin: 60px 0px;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.column img:hover {
+  transform: scale(1.3);
+  transition: transform 1s;
+}
+
+
+/* CONTACT */
+
+.contact {
+  background-color: #182848;
+  width: 100%;
+  min-height: 900px;
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact h3 {
+  font-family: SFO_Medium;
+}
+
+.contact img {
+  color: white;
+  width: 40px;
+  margin: 20px;
+}
