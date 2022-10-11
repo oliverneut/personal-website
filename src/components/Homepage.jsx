@@ -1,6 +1,7 @@
 import About from './About';
 import Footer from './Footer';
 import profile_picture from '../assets/profile_pic.jpeg'
+import other_pic from '../assets/aa.jpeg'
 import github from '../assets/github.png'
 import linkedin from '../assets/linkedin.png'
 
@@ -14,9 +15,11 @@ const Homepage = () => {
             <br />
             <p>Since I am part of an active investment club (Dalton Investment Group), I have learned to manage a portfolio while working as a group to make decisions and conduct meetings on a regular basis. The investing I have learned to love and I often find myself engaging with news regarding the stock market and the economy that we're all part of.</p>
             <br />
+            <p id="websummit">Aside from my engineering background, I also work on projects with photography and video together with my friend and colleague <a href="https://www.arthurherbosch.com/" target="_blank">Arthur Herbosch</a> for clients in need of content.</p>
+            <br />
             <a className='resume' href="./Resume_Oliver.pdf" download='Resume_Oliver_Neut' >Download resume</a>
             </div>
-            <img className='profile_picture' src={profile_picture} width="20%" alt="" />
+            <img className='profile_picture' src={other_pic} width="25%" alt="" />
         </div>
         </div>
         <div className='education_section'>

@@ -140,6 +140,8 @@ a > div {
 
 .profile_picture {
   border-radius: 15px;
+  width: 230px;
+  height: auto;
 }
 
 .education_section {
@@ -220,7 +222,7 @@ a > div {
   flex-direction: row;
   padding-bottom: 20px;
   padding-top: 20px;
-  background: linear-gradient(180deg, #2b2b2b 0%, #535353 100%);;
+  background: linear-gradient(180deg, #c8c8c8 0%, #909bf6 100%);;
 }
 
 .socials {
@@ -252,7 +254,8 @@ a > div {
 /* PROJECTS */
 
 .projects {
-  background-color: rgb(37, 44, 63);
+  background: rgb(17,14,71);
+  background: linear-gradient(180deg, rgba(17,14,71,1) 0%, rgba(164,171,172,1) 100%);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -298,7 +301,9 @@ a > div {
 /* CONTACT */
 
 .contact {
-  background-color: #182848;
+  /* background-color: #182848; */
+  background: rgb(17,14,71);
+  background: linear-gradient(180deg, rgba(17,14,71,1) 0%, rgba(164,171,172,1) 100%);
   width: 100%;
   min-height: 900px;
   display: flex;
@@ -315,4 +320,8 @@ a > div {
   color: white;
   width: 40px;
   margin: 20px;
+}
+
+#websummit a {
+  text-decoration: underline;
 }

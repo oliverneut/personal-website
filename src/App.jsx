@@ -20,9 +20,9 @@ function App() {
       <Navbar />
       <div className='space'></div>
       <Routes>
-        <Route path="/" element={<Homepage/>} />
-        <Route path="/projects" element={<Projects/>} />
-        <Route path="/contact" element={<Contact/>} />
+        <Route path="/personal-website" element={<Homepage/>} />
+        <Route path="/personal-website/projects" element={<Projects/>} />
+        <Route path="/personal-website/contact" element={<Contact/>} />
       </Routes>
     </div>
   )
