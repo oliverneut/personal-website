@@ -2,6 +2,7 @@ import About from './About';
 import Footer from './Footer';
 import profile_picture from '../assets/profile_pic.jpeg'
 import other_pic from '../assets/aa.jpeg'
+import lisbon_pic from '../assets/IMG_0345.jpeg'
 import github from '../assets/github.png'
 import linkedin from '../assets/linkedin.png'
 
@@ -19,7 +20,7 @@ const Homepage = () => {
             <br />
             <a className='resume' href="./Resume_Oliver.pdf" download='Resume_Oliver_Neut' >Download resume</a>
             </div>
-            <img className='profile_picture' src={other_pic} width="25%" alt="" />
+            <img className='profile_picture' src={lisbon_pic} width="25%" alt="" />
         </div>
         </div>
         <div className='education_section'>
